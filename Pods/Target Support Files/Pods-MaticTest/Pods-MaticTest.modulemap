@@ -1,0 +1,6 @@
+framework module Pods_MaticTest {
+  umbrella header "Pods-MaticTest-umbrella.h"
+
+  export *
+  module * { export * }
+}
