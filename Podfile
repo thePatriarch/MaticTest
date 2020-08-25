@@ -6,6 +6,5 @@ target 'MaticTest' do
   use_frameworks!
 
   # Pods for MaticTest
-pod 'Alamofire', '~> 5.2'
 pod 'Kingfisher', '~> 5.0'
 end

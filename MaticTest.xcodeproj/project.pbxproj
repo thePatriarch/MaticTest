@@ -152,7 +152,6 @@
 				186EB09324F501F300A38051 /* AppDelegate.swift */,
 				186EB09524F501F300A38051 /* SceneDelegate.swift */,
 				186EB09F24F501F400A38051 /* Assets.xcassets */,
-				186EB0A424F501F400A38051 /* Info.plist */,
 				186EB09C24F501F300A38051 /* MaticTest.xcdatamodeld */,
 			);
 			path = OtherFiles;
@@ -179,6 +178,7 @@
 		186EB09224F501F300A38051 /* MaticTest */ = {
 			isa = PBXGroup;
 			children = (
+				186EB0A424F501F400A38051 /* Info.plist */,
 				18146A4824F50CD2007C0D33 /* Networking */,
 				18146A6524F565BF007C0D33 /* Model */,
 				18146A6424F565AC007C0D33 /* View */,
@@ -490,7 +490,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.sulyman.MaticTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -508,7 +508,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.sulyman.MaticTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
